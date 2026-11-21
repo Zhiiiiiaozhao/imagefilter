@@ -16,3 +16,5 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 Imports: 
     magick
+URL: https://github.com/Zhiiiiiaozhao/imagefilter
+BugReports: https://github.com/Zhiiiiiaozhao/imagefilter/issues
