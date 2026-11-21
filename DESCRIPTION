@@ -1,0 +1,18 @@
+Package: imagefilter
+Title: Apply Colour Filters to RGB Bitmap Images
+Version: 0.1.0
+Authors@R:
+    person(given = "Lei",
+           family = "Zhao",
+           email = "lei.zhao@ki.se",
+           role = c("aut", "cre"))
+Description: Provides simple functions for converting RGB bitmap images
+    into greyscale, red, green, blue, and black-and-magenta versions.
+    Filter functions operate on individual pixels, and a separate function
+    applies a selected filter to every pixel in an image.
+License: MIT + file LICENSE
+Config/roxygen2/version: 8.1.1
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports: 
+    magick
