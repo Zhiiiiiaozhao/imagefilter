@@ -7,12 +7,29 @@ RGB images into greyscale, red, green, blue, and black-and-magenta versions.
 
 ## Installation
 
-Download and unzip the project, then open its `.Rproj` file in RStudio.
-Install the package from the project directory:
+Install the package directly from GitHub:
 
 ```r
-install.packages("devtools") # Only needed if not already installed
-devtools::install()
+devtools::install_github("Zhiiiiiaozhao/imagefilter", upgrade = FALSE)
+```
+
+Alternatively, download and unzip the repository, open
+`lei_zhao.Rproj` in RStudio, and run:
+
+```r
+devtools::install(upgrade = FALSE)
+```
+
+If devtools is not installed, first run:
+
+```r
+install.packages("devtools")
+```
+
+After installation, load imagefilter:
+
+```r
+library(imagefilter)
 ```
 
 ## Functions
